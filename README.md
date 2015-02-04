@@ -1,5 +1,5 @@
-# puppet_cached_catalog
-Enable / Revert Puppet Catalog Caching For Puppet Enterprise v.3.7.1+
+# puppet_cache_catalog
+Enable / Revert Puppet Catalog Caching For Puppet Enterprise v.3.7.0+
 
 In the event of PuppetDB becoming unavailable, Puppet Enterprise agents
 will fail to apply catalogs because agent facts can't be submitted back
@@ -42,6 +42,7 @@ Once PuppetDB becomes available, you can revert the change to
 puppet.conf by simply uninstalling the package.
 
 
-This package has been tested against CentOS 6.5 x64.
+This package has been tested against CentOS 6.5 x64, and
+Puppet Enterprise 3.7.0.
 
  
